@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="MRMaNW" name="sk1" projectType="audioplug" useAppConfig="0"
+              addUsingNamespaceToJuceHeader="0" displaySplashScreen="1" jucerFormatVersion="1"
+              pluginCharacteristicsValue="pluginIsSynth,pluginWantsMidiIn"
+              companyName="yourcompany">
+  <MAINGROUP id="iZ3hFF" name="sk1">
+    <GROUP id="{46D8FDC3-234A-E06A-BCE4-881D0075EF7E}" name="Source">
+      <FILE id="gwS2ej" name="AudioRecorder.cpp" compile="1" resource="0"
+            file="Source/AudioRecorder.cpp"/>
+      <FILE id="MDWAXh" name="AudioRecorder.h" compile="0" resource="0" file="Source/AudioRecorder.h"/>
+      <FILE id="bTOczX" name="AudioRecordingDemo.cpp" compile="1" resource="0"
+            file="Source/AudioRecordingDemo.cpp"/>
+      <FILE id="wBPoRH" name="AudioRecordingDemo.h" compile="0" resource="0"
+            file="Source/AudioRecordingDemo.h"/>
+      <FILE id="KnYRGw" name="PluginProcessor.h" compile="0" resource="0"
+            file="Source/PluginProcessor.h"/>
+      <FILE id="tm7P56" name="PluginProcessor.cpp" compile="1" resource="0"
+            file="Source/PluginProcessor.cpp"/>
+      <FILE id="jstecj" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
+      <FILE id="By7Ocn" name="PluginEditor.cpp" compile="1" resource="0"
+            file="Source/PluginEditor.cpp"/>
+      <FILE id="evRgOL" name="ButtonPanel.h" compile="0" resource="0" file="Source/ButtonPanel.h"/>
+      <FILE id="c6VKk6" name="ButtonPanel.cpp" compile="1" resource="0" file="Source/ButtonPanel.cpp"/>
+      <GROUP id="{B7CD6758-A28A-AD9D-05D2-CFA2AAC23653}" name="assets">
+        <FILE id="GNU0r3" name="logo1.jpg" compile="0" resource="1" file="assets/logo1.jpg"/>
+        <FILE id="jD2oO5" name="logo2.jpg" compile="0" resource="1" file="../../../../Downloads/logo2.jpg"/>
+      </GROUP>
+    </GROUP>
+    <GROUP id="{ABF1DCE8-F109-8676-AF16-E43C94F343E6}" name="samples">
+      <FILE id="D7A5C3" name="brass.wav" compile="0" resource="1" file="samples/brass.wav"/>
+      <FILE id="pfDmC4" name="brassvib.wav" compile="0" resource="1" file="samples/brassvib.wav"/>
+      <FILE id="oONTaN" name="drums.wav" compile="0" resource="1" file="samples/drums.wav"/>
+      <FILE id="j3UtU4" name="drumsvib.wav" compile="0" resource="1" file="samples/drumsvib.wav"/>
+      <FILE id="KQWvYf" name="flute.wav" compile="0" resource="1" file="samples/flute.wav"/>
+      <FILE id="LkwTFh" name="flutevib.wav" compile="0" resource="1" file="samples/flutevib.wav"/>
+      <FILE id="wveOhP" name="human.wav" compile="0" resource="1" file="samples/human.wav"/>
+      <FILE id="ecrIsz" name="humanvib.wav" compile="0" resource="1" file="samples/humanvib.wav"/>
+      <FILE id="ZIAFPU" name="jazz.wav" compile="0" resource="1" file="samples/jazz.wav"/>
+      <FILE id="xtdwVk" name="jazzvib.wav" compile="0" resource="1" file="samples/jazzvib.wav"/>
+      <FILE id="uE0fv6" name="piano.wav" compile="0" resource="1" file="samples/piano.wav"/>
+      <FILE id="DJjRfI" name="pianovib.wav" compile="0" resource="1" file="samples/pianovib.wav"/>
+      <FILE id="IFGYUd" name="pipe.wav" compile="0" resource="1" file="samples/pipe.wav"/>
+      <FILE id="XVWMo2" name="pipevib.wav" compile="0" resource="1" file="samples/pipevib.wav"/>
+      <FILE id="BqeSpz" name="trumpet.wav" compile="0" resource="1" file="samples/trumpet.wav"/>
+      <FILE id="njCS5y" name="trumpetvib.wav" compile="0" resource="1" file="samples/trumpetvib.wav"/>
+    </GROUP>
+  </MAINGROUP>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1" JUCE_VST3_CAN_REPLACE_VST2="0"/>
+  <EXPORTFORMATS>
+    <XCODE_MAC targetFolder="Builds/MacOSX">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="sk1"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="sk1"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../../../../../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../../../../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../../../../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../../../../../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../../../../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../../../../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../../../../../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../../../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../../../../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../../../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../../../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../../../../Applications/JUCE/modules"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_plugin_client" showAllCode="1" useLocalCopy="0"
+            useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+</JUCERPROJECT>
