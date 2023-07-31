@@ -5,6 +5,7 @@ Current Features:
 - 8 preset sounds sampled directly from the original keyboard
 - 1.4 second, 8 bit, 9.38 kHz sampler
 - 4 note polyphony
+- 5 preset ADSR envelopes
 - Vibrato, which can be applied to each preset
 
 In Progress:
