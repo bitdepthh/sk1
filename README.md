@@ -1,5 +1,5 @@
 # sk1
-Work-in-progress VST replica of the Casio SK-1 Keyboard from 1985.
+Work-in-progress VST simulation of the Casio SK-1 Keyboard from 1985.
 
 Current Features:
 - 8 preset sounds sampled directly from the original keyboard
