@@ -2,9 +2,9 @@
 Work-in-progress VST replica of the Casio SK-1 Keyboard from 1985.
 
 Current Features:
-- 8 preset sounds sampled directly from the original
-- 1.4 second, 8 bit, 9.38 kHz sampler, faithful to the original keyboard
-- Vibrato which can be applied to each preset
+- 8 preset sounds sampled directly from the original keyboard
+- 1.4 second, 8 bit, 9.38 kHz sampler
+- Vibrato, which can be applied to each preset
 
 In Progress:
 - Simple additive synthesizer
